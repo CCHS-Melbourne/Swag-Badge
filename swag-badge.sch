@@ -1,0 +1,344 @@
+EESchema Schematic File Version 4
+LIBS:swag-badge-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5F5375FF
+P 5550 1750
+F 0 "J?" H 5468 2067 50  0000 C CNN
+F 1 "OLED_1" H 5468 1976 50  0000 C CNN
+F 2 "" H 5550 1750 50  0001 C CNN
+F 3 "~" H 5550 1750 50  0001 C CNN
+	1    5550 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5F53A38D
+P 5550 2550
+F 0 "J?" H 5468 2867 50  0000 C CNN
+F 1 "OLED_2" H 5468 2776 50  0000 C CNN
+F 2 "" H 5550 2550 50  0001 C CNN
+F 3 "~" H 5550 2550 50  0001 C CNN
+	1    5550 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J?
+U 1 1 5F53AD7D
+P 7950 1700
+F 0 "J?" H 8000 2017 50  0000 C CNN
+F 1 "SAO_1" H 8000 1926 50  0000 C CNN
+F 2 "" H 7950 1700 50  0001 C CNN
+F 3 "~" H 7950 1700 50  0001 C CNN
+	1    7950 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F53C89C
+P 8350 1950
+F 0 "#PWR?" H 8350 1700 50  0001 C CNN
+F 1 "GND" H 8355 1777 50  0000 C CNN
+F 2 "" H 8350 1950 50  0001 C CNN
+F 3 "" H 8350 1950 50  0001 C CNN
+	1    8350 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1500 7650 1600
+Wire Wire Line
+	7650 1600 7750 1600
+Wire Wire Line
+	8250 1600 8350 1600
+Wire Wire Line
+	8350 1600 8350 1950
+Wire Wire Line
+	7750 1700 7550 1700
+Text Label 7550 1700 0    50   ~ 0
+SDA
+Wire Wire Line
+	7750 1800 7550 1800
+Wire Wire Line
+	8250 1700 8700 1700
+Wire Wire Line
+	8250 1800 8700 1800
+Text Label 8700 1700 2    50   ~ 0
+SCL
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F53F1EB
+P 5900 1550
+F 0 "#PWR?" H 5900 1400 50  0001 C CNN
+F 1 "+3V3" H 5915 1723 50  0000 C CNN
+F 2 "" H 5900 1550 50  0001 C CNN
+F 3 "" H 5900 1550 50  0001 C CNN
+	1    5900 1550
+	1    0    0    -1  
+$EndComp
+Text Label 5950 1950 2    50   ~ 0
+SDA
+Text Label 5950 1850 2    50   ~ 0
+SCL
+Wire Wire Line
+	5750 1850 5950 1850
+Wire Wire Line
+	5750 1950 5950 1950
+Wire Wire Line
+	5750 1650 5900 1650
+Wire Wire Line
+	5900 1650 5900 1550
+$Comp
+L power:GND #PWR?
+U 1 1 5F5403D5
+P 6100 1800
+F 0 "#PWR?" H 6100 1550 50  0001 C CNN
+F 1 "GND" H 6105 1627 50  0000 C CNN
+F 2 "" H 6100 1800 50  0001 C CNN
+F 3 "" H 6100 1800 50  0001 C CNN
+	1    6100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 1750 6100 1750
+Wire Wire Line
+	6100 1750 6100 1800
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F540D5F
+P 5900 2350
+F 0 "#PWR?" H 5900 2200 50  0001 C CNN
+F 1 "+3V3" H 5915 2523 50  0000 C CNN
+F 2 "" H 5900 2350 50  0001 C CNN
+F 3 "" H 5900 2350 50  0001 C CNN
+	1    5900 2350
+	1    0    0    -1  
+$EndComp
+Text Label 5950 2750 2    50   ~ 0
+SDA
+Text Label 5950 2650 2    50   ~ 0
+SCL
+Wire Wire Line
+	5750 2650 5950 2650
+Wire Wire Line
+	5750 2750 5950 2750
+Wire Wire Line
+	5750 2450 5900 2450
+Wire Wire Line
+	5900 2450 5900 2350
+$Comp
+L power:GND #PWR?
+U 1 1 5F540D6F
+P 6100 2600
+F 0 "#PWR?" H 6100 2350 50  0001 C CNN
+F 1 "GND" H 6105 2427 50  0000 C CNN
+F 2 "" H 6100 2600 50  0001 C CNN
+F 3 "" H 6100 2600 50  0001 C CNN
+	1    6100 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2550 6100 2550
+Wire Wire Line
+	6100 2550 6100 2600
+Text Label 1800 3450 2    70   ~ 0
+GND
+Text Label 1850 1800 2    70   ~ 0
+GND
+Text Label 1850 1600 2    70   ~ 0
+3.3V
+Wire Wire Line
+	1400 3350 1800 3350
+Text Label 1800 3350 2    70   ~ 0
+RESET
+Wire Wire Line
+	1400 3150 1800 3150
+Text Label 1800 3150 2    70   ~ 0
+GPIO32
+Wire Wire Line
+	1400 3250 1800 3250
+Text Label 1800 3250 2    70   ~ 0
+GPIO33
+Wire Wire Line
+	1400 1000 1850 1000
+Text Label 1850 1000 2    70   ~ 0
+GPIO25
+Wire Wire Line
+	1400 1100 1850 1100
+Text Label 1850 1100 2    70   ~ 0
+GPIO26
+Wire Wire Line
+	1400 1200 1850 1200
+Text Label 1850 1200 2    70   ~ 0
+GPIO27
+Wire Wire Line
+	1400 1400 1850 1400
+Text Label 1850 1400 2    70   ~ 0
+GPIO14
+Wire Wire Line
+	1400 1300 1850 1300
+Text Label 1850 1300 2    70   ~ 0
+GPIO15
+Wire Wire Line
+	1400 1500 1850 1500
+Text Label 1850 1500 2    70   ~ 0
+GPIO4
+Wire Wire Line
+	1400 2850 1800 2850
+Text Label 1800 2850 2    70   ~ 0
+GPIO5
+Wire Wire Line
+	1400 2750 1800 2750
+Text Label 1800 2750 2    70   ~ 0
+GPIO18
+Wire Wire Line
+	1400 2550 1800 2550
+Text Label 1800 2550 2    70   ~ 0
+GPIO23
+Wire Wire Line
+	1400 2950 1800 2950
+Text Label 1800 2950 2    70   ~ 0
+GPIO22
+Wire Wire Line
+	1400 2650 1800 2650
+Text Label 1800 2650 2    70   ~ 0
+GPIO19
+Wire Wire Line
+	1400 3050 1800 3050
+Text Label 1800 3050 2    70   ~ 0
+GPIO21
+Wire Wire Line
+	1400 1900 1850 1900
+Text Label 1850 1900 2    70   ~ 0
+VBAT
+Text Label 1850 1700 2    70   ~ 0
+USB
+$Comp
+L swag-badge-rescue:TINYPICO_HEADER_10NO_SILK_PTH_FEMALE-Shield_Empty-eagle-import LEFT1
+U 1 1 9090CA12
+P 1000 1200
+F 0 "LEFT1" H 1000 1520 70  0000 L BNN
+F 1 "TINYPICO_HEADER_10" V 950 400 70  0000 L BNN
+F 2 "Shield_Empty:1X10_NO_SILK" H 1000 1200 50  0001 C CNN
+F 3 "" H 1000 1200 50  0001 C CNN
+	1    1000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L swag-badge-rescue:TINYPICO_HEADER_10NO_SILK_PTH_FEMALE-Shield_Empty-eagle-import RIGHT1
+U 1 1 DBB8868D
+P 1000 3250
+F 0 "RIGHT1" H 1000 2430 70  0000 L TNN
+F 1 "TINYPICO_HEADER_10" V 950 2450 70  0000 L BNN
+F 2 "Shield_Empty:1X10_NO_SILK" H 1000 3250 50  0001 C CNN
+F 3 "" H 1000 3250 50  0001 C CNN
+	1    1000 3250
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5D63C304
+P 1900 3550
+F 0 "#PWR0101" H 1900 3300 50  0001 C CNN
+F 1 "GND" H 1905 3377 50  0000 C CNN
+F 2 "" H 1900 3550 50  0001 C CNN
+F 3 "" H 1900 3550 50  0001 C CNN
+	1    1900 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3450 1900 3550
+Wire Wire Line
+	1400 3450 1900 3450
+$Comp
+L power:GND #PWR0102
+U 1 1 5D647C19
+P 2000 1900
+F 0 "#PWR0102" H 2000 1650 50  0001 C CNN
+F 1 "GND" H 2005 1727 50  0000 C CNN
+F 2 "" H 2000 1900 50  0001 C CNN
+F 3 "" H 2000 1900 50  0001 C CNN
+	1    2000 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1800 2000 1900
+Wire Wire Line
+	1400 1800 2000 1800
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5D64DFFE
+P 2000 1500
+F 0 "#PWR0103" H 2000 1350 50  0001 C CNN
+F 1 "+3.3V" H 2015 1673 50  0000 C CNN
+F 2 "" H 2000 1500 50  0001 C CNN
+F 3 "" H 2000 1500 50  0001 C CNN
+	1    2000 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1600 2000 1500
+Wire Wire Line
+	1400 1600 2000 1600
+$Comp
+L power:+5V #PWR0104
+U 1 1 5D65BB12
+P 2150 1600
+F 0 "#PWR0104" H 2150 1450 50  0001 C CNN
+F 1 "+5V" H 2165 1773 50  0000 C CNN
+F 2 "" H 2150 1600 50  0001 C CNN
+F 3 "" H 2150 1600 50  0001 C CNN
+	1    2150 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1700 2150 1600
+Wire Wire Line
+	1400 1700 2150 1700
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F53BE1F
+P 7650 1500
+F 0 "#PWR?" H 7650 1350 50  0001 C CNN
+F 1 "+3V3" H 7665 1673 50  0000 C CNN
+F 2 "" H 7650 1500 50  0001 C CNN
+F 3 "" H 7650 1500 50  0001 C CNN
+	1    7650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x16 J?
+U 1 1 5F658339
+P 1150 5250
+F 0 "J?" H 1068 6167 50  0000 C CNN
+F 1 "Lolin32_Header_Left" H 1068 6076 50  0000 C CNN
+F 2 "" H 1150 5250 50  0001 C CNN
+F 3 "~" H 1150 5250 50  0001 C CNN
+	1    1150 5250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x20 J?
+U 1 1 5F65BCE5
+P 2450 5450
+F 0 "J?" H 2368 6567 50  0000 C CNN
+F 1 "Lolin32_Header_Right" H 2368 6476 50  0000 C CNN
+F 2 "" H 2450 5450 50  0001 C CNN
+F 3 "~" H 2450 5450 50  0001 C CNN
+	1    2450 5450
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC

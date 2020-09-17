@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Shield_Empty-eagle-import)(type Legacy)(uri E:/Dropbox/GitHub/TinyPico-Shield/Shield_Empty-eagle-import.lib)(options "")(descr ""))
+  (lib (name swag-badge-rescue)(type Legacy)(uri ${KIPRJMOD}/swag-badge-rescue.lib)(options "")(descr ""))
+)

@@ -19,7 +19,7 @@ U 1 1 5F5375FF
 P 3350 4550
 F 0 "J1" H 3268 4867 50  0000 C CNN
 F 1 "OLED_1" H 3268 4776 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 3350 4550 50  0001 C CNN
+F 2 "SwagBadge:Display_Module_128X64_I2C_SSD1306" H 3350 4550 50  0001 C CNN
 F 3 "~" H 3350 4550 50  0001 C CNN
 	1    3350 4550
 	-1   0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 5F53A38D
 P 3350 5350
 F 0 "J2" H 3268 5667 50  0000 C CNN
 F 1 "OLED_2" H 3268 5576 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 3350 5350 50  0001 C CNN
+F 2 "SwagBadge:Display_Module_128X64_I2C_SSD1306" H 3350 5350 50  0001 C CNN
 F 3 "~" H 3350 5350 50  0001 C CNN
 	1    3350 5350
 	-1   0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 5F53AD7D
 P 4000 1150
 F 0 "J5" H 4050 1467 50  0000 C CNN
 F 1 "SAO_1" H 4050 1376 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4000 1150 50  0001 C CNN
+F 2 "SwagBadge:SAO_Header_6-Pin" H 4000 1150 50  0001 C CNN
 F 3 "~" H 4000 1150 50  0001 C CNN
 	1    4000 1150
 	1    0    0    -1  
@@ -282,7 +282,7 @@ U 1 1 5F6BCBBA
 P 4000 2100
 F 0 "J6" H 4050 2417 50  0000 C CNN
 F 1 "SAO_2" H 4050 2326 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4000 2100 50  0001 C CNN
+F 2 "SwagBadge:SAO_Header_6-Pin" H 4000 2100 50  0001 C CNN
 F 3 "~" H 4000 2100 50  0001 C CNN
 	1    4000 2100
 	1    0    0    -1  
@@ -326,15 +326,15 @@ F 3 "" H 3700 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x13_Counter_Clockwise J?
+L Connector_Generic:Conn_02x13_Counter_Clockwise J3
 U 1 1 5F73663E
 P 1800 2000
-F 0 "J?" H 1850 2817 50  0000 C CNN
+F 0 "J3" H 1850 2817 50  0000 C CNN
 F 1 "Lolin32" H 1850 2726 50  0000 C CNN
-F 2 "" H 1800 2000 50  0001 C CNN
+F 2 "SwagBadge:LOLIN32_Flipped_SmallCut" H 1800 2000 50  0001 C CNN
 F 3 "~" H 1800 2000 50  0001 C CNN
 	1    1800 2000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	1600 2600 1300 2600
@@ -351,21 +351,21 @@ Wire Wire Line
 Wire Wire Line
 	2100 1500 2500 1500
 $Comp
-L Connector_Generic:Conn_02x03_Counter_Clockwise J?
+L Connector_Generic:Conn_02x03_Counter_Clockwise J4
 U 1 1 5F7685A3
 P 4000 3100
-F 0 "J?" H 4050 3417 50  0000 C CNN
+F 0 "J4" H 4050 3417 50  0000 C CNN
 F 1 "SAO_3" H 4050 3326 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4000 3100 50  0001 C CNN
+F 2 "SwagBadge:SAO_Header_6-Pin" H 4000 3100 50  0001 C CNN
 F 3 "~" H 4000 3100 50  0001 C CNN
 	1    4000 3100
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5F7685AD
 P 4800 3350
-F 0 "#PWR?" H 4800 3100 50  0001 C CNN
+F 0 "#PWR0101" H 4800 3100 50  0001 C CNN
 F 1 "GND" H 4805 3177 50  0000 C CNN
 F 2 "" H 4800 3350 50  0001 C CNN
 F 3 "" H 4800 3350 50  0001 C CNN
@@ -389,10 +389,10 @@ Wire Wire Line
 Wire Wire Line
 	4300 3200 4750 3200
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0102
 U 1 1 5F7685C1
 P 3700 2900
-F 0 "#PWR?" H 3700 2750 50  0001 C CNN
+F 0 "#PWR0102" H 3700 2750 50  0001 C CNN
 F 1 "+3V3" H 3715 3073 50  0000 C CNN
 F 2 "" H 3700 2900 50  0001 C CNN
 F 3 "" H 3700 2900 50  0001 C CNN

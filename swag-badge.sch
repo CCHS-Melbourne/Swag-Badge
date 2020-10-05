@@ -175,13 +175,9 @@ Wire Wire Line
 	2100 1400 2500 1400
 Wire Wire Line
 	2500 1400 2500 1350
-Wire Wire Line
-	1600 1900 1200 1900
-Text Label 1200 1900 0    70   ~ 0
+Text Label 1200 1900 0    70   Italic 0
 GPIO32
-Wire Wire Line
-	1600 2000 1200 2000
-Text Label 1200 2000 0    70   ~ 0
+Text Label 1200 2000 0    70   Italic 0
 GPIO33
 Wire Wire Line
 	1600 1600 1200 1600
@@ -197,11 +193,11 @@ Text Label 1200 1500 0    70   ~ 0
 VN
 Wire Wire Line
 	1600 1700 1200 1700
-Text Label 1200 1700 0    70   Italic 0
+Text Label 1200 1700 0    70   ~ 0
 GPIO34
 Wire Wire Line
 	1600 1800 1200 1800
-Text Label 1200 1800 0    70   Italic 0
+Text Label 1200 1800 0    70   ~ 0
 GPIO35
 Wire Wire Line
 	1600 2100 1200 2100
@@ -211,21 +207,15 @@ Wire Wire Line
 	1600 2200 1200 2200
 Text Label 1200 2200 0    70   ~ 0
 GPIO26
-Wire Wire Line
-	1600 2300 1200 2300
 Text Label 1200 2300 0    70   ~ 0
 GPIO27
-Wire Wire Line
-	1600 2400 1200 2400
 Text Label 1200 2400 0    70   ~ 0
 GPIO14
-Wire Wire Line
-	1600 2500 1200 2500
-Text Label 1200 2500 0    70   Italic 0
+Text Label 1200 2500 0    70   ~ 0
 GPIO12
 Wire Wire Line
 	2100 2600 2500 2600
-Text Label 2500 2600 2    70   Italic 0
+Text Label 2500 2600 2    70   ~ 0
 GPIO13
 $Comp
 L power:GND #PWR0112
@@ -238,19 +228,17 @@ F 3 "" H 1300 2650 50  0001 C CNN
 	1    1300 2650
 	1    0    0    -1  
 $EndComp
-Text Label 2500 1500 2    70   ~ 0
+Text Label 2500 1500 2    70   Italic 0
 GPIO22
 Wire Wire Line
 	2100 1600 2500 1600
-Text Label 2500 1600 2    70   ~ 0
+Text Label 2500 1600 2    70   Italic 0
 GPIO19
 Wire Wire Line
 	2100 1700 2500 1700
-Text Label 2500 1700 2    70   ~ 0
-GPIO23
 Wire Wire Line
 	2100 1800 2500 1800
-Text Label 2500 1800 2    70   ~ 0
+Text Label 2500 1800 2    70   Italic 0
 GPIO18
 Text Label 2500 1900 2    70   ~ 0
 GPIO5
@@ -262,18 +250,12 @@ Wire Wire Line
 	2100 2100 2500 2100
 Text Label 2500 2100 2    70   Italic 0
 GPIO16
-Text Label 2500 2200 2    70   Italic 0
+Text Label 2500 2200 2    70   ~ 0
 GPIO4
-Wire Wire Line
-	2100 2300 2500 2300
-Text Label 2500 2300 2    70   Italic 0
+Text Label 2500 2300 2    70   ~ 0
 GPIO0
-Wire Wire Line
-	2100 2400 2500 2400
-Text Label 2500 2400 2    70   Italic 0
+Text Label 2500 2400 2    70   ~ 0
 GPIO2
-Wire Wire Line
-	2100 2500 2500 2500
 Text Label 2500 2500 2    70   ~ 0
 GPIO15
 $Comp
@@ -426,45 +408,193 @@ GPIO18
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5F7A9FE9
-P 2350 4650
-F 0 "SW1" H 2350 4935 50  0000 C CNN
-F 1 "SW_Push" H 2350 4844 50  0000 C CNN
-F 2 "SwagBadge:SW_SPST_6x3mm" H 2350 4850 50  0001 C CNN
-F 3 "~" H 2350 4850 50  0001 C CNN
-	1    2350 4650
+P 1800 3700
+F 0 "SW1" H 1800 3985 50  0000 C CNN
+F 1 "SW_Push" H 1800 3894 50  0000 C CNN
+F 2 "SwagBadge:SW_SPST_6x3mm" H 1800 3900 50  0001 C CNN
+F 3 "~" H 1800 3900 50  0001 C CNN
+	1    1800 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5F7B662C
-P 2850 4650
-F 0 "R1" V 2643 4650 50  0000 C CNN
-F 1 "R" V 2734 4650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 2780 4650 50  0001 C CNN
-F 3 "~" H 2850 4650 50  0001 C CNN
-	1    2850 4650
-	0    1    1    0   
+P 2150 4000
+F 0 "R1" V 1943 4000 50  0000 C CNN
+F 1 "10k" V 2034 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2080 4000 50  0001 C CNN
+F 3 "~" H 2150 4000 50  0001 C CNN
+	1    2150 4000
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW2
 U 1 1 5F7BF1A3
-P 2350 5800
-F 0 "SW2" H 2350 6085 50  0000 C CNN
-F 1 "SW_Push" H 2350 5994 50  0000 C CNN
-F 2 "SwagBadge:SW_SPST_6x3mm" H 2350 6000 50  0001 C CNN
-F 3 "~" H 2350 6000 50  0001 C CNN
-	1    2350 5800
+P 1800 5000
+F 0 "SW2" H 1800 5285 50  0000 C CNN
+F 1 "SW_Push" H 1800 5194 50  0000 C CNN
+F 2 "SwagBadge:SW_SPST_6x3mm" H 1800 5200 50  0001 C CNN
+F 3 "~" H 1800 5200 50  0001 C CNN
+	1    1800 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 5F7BF1A9
-P 2850 5800
-F 0 "R2" V 2643 5800 50  0000 C CNN
-F 1 "R" V 2734 5800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 2780 5800 50  0001 C CNN
-F 3 "~" H 2850 5800 50  0001 C CNN
-	1    2850 5800
-	0    1    1    0   
+P 2150 5300
+F 0 "R2" V 1943 5300 50  0000 C CNN
+F 1 "10k" V 2034 5300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2080 5300 50  0001 C CNN
+F 3 "~" H 2150 5300 50  0001 C CNN
+	1    2150 5300
+	1    0    0    -1  
 $EndComp
+Text Label 2500 1700 2    70   Italic 0
+GPIO23
+Text Label 1000 2400 0    70   ~ 0
+T6
+Text Label 2850 2500 2    70   ~ 0
+T3
+Text Label 1000 2300 0    70   ~ 0
+T7
+Text Label 1000 1900 0    70   ~ 0
+T9
+Text Label 1000 2000 0    70   ~ 0
+T8
+Text Label 1000 2500 0    70   ~ 0
+T5
+Text Label 2850 2300 2    70   ~ 0
+T1
+Text Label 2850 2400 2    70   ~ 0
+T2
+Wire Wire Line
+	2100 2300 2850 2300
+Wire Wire Line
+	2100 2400 2850 2400
+Wire Wire Line
+	2100 2500 2850 2500
+Wire Wire Line
+	1000 2500 1600 2500
+Wire Wire Line
+	1000 2400 1600 2400
+Wire Wire Line
+	1000 2300 1600 2300
+Wire Wire Line
+	1000 2000 1600 2000
+Wire Wire Line
+	1000 1900 1600 1900
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 5F7C311E
+P 1450 3600
+F 0 "#PWR0103" H 1450 3450 50  0001 C CNN
+F 1 "+3V3" H 1465 3773 50  0000 C CNN
+F 2 "" H 1450 3600 50  0001 C CNN
+F 3 "" H 1450 3600 50  0001 C CNN
+	1    1450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F7C3E3D
+P 2150 4300
+F 0 "#PWR0104" H 2150 4050 50  0001 C CNN
+F 1 "GND" H 2155 4127 50  0000 C CNN
+F 2 "" H 2150 4300 50  0001 C CNN
+F 3 "" H 2150 4300 50  0001 C CNN
+	1    2150 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3600 1450 3700
+Wire Wire Line
+	1450 3700 1600 3700
+Wire Wire Line
+	2000 3700 2150 3700
+Wire Wire Line
+	2150 3700 2150 3850
+Wire Wire Line
+	2150 4150 2150 4300
+Wire Wire Line
+	2150 3700 2450 3700
+Connection ~ 2150 3700
+$Comp
+L power:+3V3 #PWR0113
+U 1 1 5F7CCF77
+P 1450 4900
+F 0 "#PWR0113" H 1450 4750 50  0001 C CNN
+F 1 "+3V3" H 1465 5073 50  0000 C CNN
+F 2 "" H 1450 4900 50  0001 C CNN
+F 3 "" H 1450 4900 50  0001 C CNN
+	1    1450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5F7CDE40
+P 2150 5600
+F 0 "#PWR0114" H 2150 5350 50  0001 C CNN
+F 1 "GND" H 2155 5427 50  0000 C CNN
+F 2 "" H 2150 5600 50  0001 C CNN
+F 3 "" H 2150 5600 50  0001 C CNN
+	1    2150 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 4900 1450 5000
+Wire Wire Line
+	1450 5000 1600 5000
+Wire Wire Line
+	2000 5000 2150 5000
+Wire Wire Line
+	2150 5000 2150 5150
+Wire Wire Line
+	2150 5450 2150 5600
+Wire Wire Line
+	2150 5000 2450 5000
+Connection ~ 2150 5000
+Text Label 2450 3700 2    70   ~ 0
+GPIO17
+Text Label 2450 5000 2    70   ~ 0
+GPIO16
+Text Label 1750 6350 2    70   ~ 0
+T7
+Text Label 1750 6450 2    70   ~ 0
+T6
+Text Label 1750 7050 2    70   ~ 0
+T5
+Wire Wire Line
+	1500 6350 1750 6350
+Wire Wire Line
+	1500 6450 1750 6450
+Wire Wire Line
+	1500 7050 1750 7050
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5F7E3B54
+P 1300 6450
+F 0 "J7" H 1218 6125 50  0000 C CNN
+F 1 "Touch_slider_01" H 1218 6216 50  0000 C CNN
+F 2 "libs:sense_short" H 1300 6450 50  0001 C CNN
+F 3 "~" H 1300 6450 50  0001 C CNN
+	1    1300 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5F7E4758
+P 1300 7050
+F 0 "J8" H 1218 6725 50  0000 C CNN
+F 1 "Touch_slider_02" H 1218 6816 50  0000 C CNN
+F 2 "libs:sense_short" H 1300 7050 50  0001 C CNN
+F 3 "~" H 1300 7050 50  0001 C CNN
+	1    1300 7050
+	-1   0    0    1   
+$EndComp
+Text Label 1750 6950 2    70   ~ 0
+T3
+Text Label 1750 6950 2    70   ~ 0
+T3
+Wire Wire Line
+	1500 6950 1750 6950
 $EndSCHEMATC

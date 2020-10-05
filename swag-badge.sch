@@ -575,7 +575,7 @@ U 1 1 5F7E3B54
 P 1300 6450
 F 0 "J7" H 1218 6125 50  0000 C CNN
 F 1 "Touch_slider_01" H 1218 6216 50  0000 C CNN
-F 2 "libs:sense_short" H 1300 6450 50  0001 C CNN
+F 2 "SwagBadge:sense_short" H 1300 6450 50  0001 C CNN
 F 3 "~" H 1300 6450 50  0001 C CNN
 	1    1300 6450
 	-1   0    0    1   
@@ -586,7 +586,7 @@ U 1 1 5F7E4758
 P 1300 7050
 F 0 "J8" H 1218 6725 50  0000 C CNN
 F 1 "Touch_slider_02" H 1218 6816 50  0000 C CNN
-F 2 "libs:sense_short" H 1300 7050 50  0001 C CNN
+F 2 "SwagBadge:sense_short" H 1300 7050 50  0001 C CNN
 F 3 "~" H 1300 7050 50  0001 C CNN
 	1    1300 7050
 	-1   0    0    1   

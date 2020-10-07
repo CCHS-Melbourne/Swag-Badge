@@ -691,4 +691,26 @@ F 3 "~" H 5800 6000 50  0001 C CNN
 	1    5800 6000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x13 J12
+U 1 1 5F7DD7C2
+P 7000 2100
+F 0 "J12" H 7080 2142 50  0000 L CNN
+F 1 "Conn_01x13" H 7080 2051 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x13_Pitch2.54mm" H 7000 2100 50  0001 C CNN
+F 3 "~" H 7000 2100 50  0001 C CNN
+	1    7000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x13 J13
+U 1 1 5F7E62CC
+P 7800 2100
+F 0 "J13" H 7880 2142 50  0000 L CNN
+F 1 "Conn_01x13" H 7880 2051 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x13_Pitch2.54mm" H 7800 2100 50  0001 C CNN
+F 3 "~" H 7800 2100 50  0001 C CNN
+	1    7800 2100
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

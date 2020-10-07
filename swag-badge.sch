@@ -593,7 +593,7 @@ SCL
 Text Label 3450 4100 0    70   ~ 0
 SDA
 Text Label 4750 4200 2    70   ~ 0
-GPIO23
+GPIOXX
 Text Label 3450 4200 0    70   ~ 0
-GPIO18
+GPIOXX
 $EndSCHEMATC

@@ -1,10 +1,10 @@
-(module Stud_Hole_4.8mm (layer F.Cu) (tedit 5F7DB3FA)
+(module Lanyard_Hole_3mm (layer F.Cu) (tedit 5F7DB688)
   (fp_text reference REF** (at 0 2.8575) (layer F.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (fp_text value Hole (at 0 -2.8575) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad "" np_thru_hole circle (at 0 0) (size 4.8 4.8) (drill 4.8) (layers *.Cu *.Mask)
-    (clearance 1.6))
+  (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask)
+    (clearance 2))
 )

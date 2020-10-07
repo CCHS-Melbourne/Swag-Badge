@@ -1,4 +1,4 @@
-(module Lanyard_Hole (layer F.Cu) (tedit 5F7D9A9B)
+(module Lanyard_Hole (layer F.Cu) (tedit 5F7DB67D)
   (descr "Lanyard Bulldog Clip Hole")
   (tags "LCA 2021 CCHS Lanyard Hole Bulldog Clip")
   (fp_text reference REF** (at 0 -2.3) (layer F.SilkS) hide
@@ -7,5 +7,6 @@
   (fp_text value Lanyard_Hole (at 0 2.4) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad "" np_thru_hole oval (at 0 0) (size 14 3) (drill oval 14 3) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole oval (at 0 0) (size 14 3) (drill oval 14 3) (layers *.Cu *.Mask)
+    (clearance 2))
 )

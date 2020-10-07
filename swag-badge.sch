@@ -664,7 +664,7 @@ U 1 1 5F80DF84
 P 5800 5600
 F 0 "H1" H 5900 5646 50  0000 L CNN
 F 1 "MountingHole" H 5900 5555 50  0000 L CNN
-F 2 "SwagBadge:Stud_Hole_4.8mm" H 5800 5600 50  0001 C CNN
+F 2 "SwagBadge:Lanyard_Hole_3mm" H 5800 5600 50  0001 C CNN
 F 3 "~" H 5800 5600 50  0001 C CNN
 	1    5800 5600
 	1    0    0    -1  
@@ -675,7 +675,7 @@ U 1 1 5F80E9D7
 P 5800 5800
 F 0 "H2" H 5900 5846 50  0000 L CNN
 F 1 "MountingHole" H 5900 5755 50  0000 L CNN
-F 2 "SwagBadge:Stud_Hole_4.8mm" H 5800 5800 50  0001 C CNN
+F 2 "SwagBadge:Lanyard_Hole_3mm" H 5800 5800 50  0001 C CNN
 F 3 "~" H 5800 5800 50  0001 C CNN
 	1    5800 5800
 	1    0    0    -1  

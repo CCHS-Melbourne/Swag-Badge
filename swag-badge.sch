@@ -680,4 +680,15 @@ F 3 "~" H 5800 5800 50  0001 C CNN
 	1    5800 5800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F7DCF4D
+P 5800 6000
+F 0 "H3" H 5900 6046 50  0000 L CNN
+F 1 "MountingHole" H 5900 5955 50  0000 L CNN
+F 2 "SwagBadge:Lanyard_Hole" H 5800 6000 50  0001 C CNN
+F 3 "~" H 5800 6000 50  0001 C CNN
+	1    5800 6000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

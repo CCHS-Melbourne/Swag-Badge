@@ -210,6 +210,18 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
+# SwagBadge_Logo_LCA2021
+#
+DEF SwagBadge_Logo_LCA2021 L 0 40 Y Y 1 F N
+F0 "L" 0 -200 50 H V C CNN
+F1 "SwagBadge_Logo_LCA2021" 0 -300 50 H V C CNN
+F2 "" 0 -200 50 H I C CNN
+F3 "" 0 -200 50 H I C CNN
+DRAW
+T 0 0 0 197 0 0 0 LCA2021 Normal 0 C C
+ENDDRAW
+ENDDEF
+#
 # Switch_SW_Push
 #
 DEF Switch_SW_Push SW 0 40 N N 1 F N

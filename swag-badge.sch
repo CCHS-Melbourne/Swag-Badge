@@ -381,15 +381,15 @@ F 3 "" H 3700 2900 50  0001 C CNN
 	1    3700 2900
 	1    0    0    -1  
 $EndComp
-Text Label 4750 1250 2    70   ~ 0
+Text Label 4750 2200 2    70   ~ 0
 GPIO22
-Text Label 3450 1250 0    70   ~ 0
+Text Label 3450 2200 0    70   ~ 0
 GPIO19
 Text Label 3450 1150 0    70   ~ 0
 SDA
 Text Label 4750 1150 2    70   ~ 0
 SCL
-Text Label 4750 2200 2    70   ~ 0
+Text Label 4750 1250 2    70   ~ 0
 GPIO32
 Text Label 4750 2100 2    70   ~ 0
 SCL
@@ -399,7 +399,7 @@ Text Label 4750 3100 2    70   ~ 0
 SCL
 Text Label 3450 3100 0    70   ~ 0
 SDA
-Text Label 3450 2200 0    70   ~ 0
+Text Label 3450 1250 0    70   ~ 0
 GPIO33
 Text Label 4750 4200 2    70   ~ 0
 GPIO23
@@ -681,25 +681,14 @@ F 3 "~" H 5800 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L Mechanical:MountingHole H5
 U 1 1 5F7DCF4D
-P 5800 6000
-F 0 "H3" H 5900 6046 50  0000 L CNN
-F 1 "MountingHole" H 5900 5955 50  0000 L CNN
-F 2 "SwagBadge:Lanyard_Hole" H 5800 6000 50  0001 C CNN
-F 3 "~" H 5800 6000 50  0001 C CNN
-	1    5800 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J12
-U 1 1 5F7DD7C2
-P 6650 2000
-F 0 "J12" H 6600 2500 50  0000 L CNN
-F 1 "Breakout_LHS" H 6550 2400 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 6650 2000 50  0001 C CNN
-F 3 "~" H 6650 2000 50  0001 C CNN
-	1    6650 2000
+P 5800 6100
+F 0 "H5" H 5900 6146 50  0000 L CNN
+F 1 "MountingHole" H 5900 6055 50  0000 L CNN
+F 2 "SwagBadge:Lanyard_Hole" H 5800 6100 50  0001 C CNN
+F 3 "~" H 5800 6100 50  0001 C CNN
+	1    5800 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -722,17 +711,6 @@ F 1 "Logo_LCA2021" H 6300 5312 50  0000 C CNN
 F 2 "SwagBadge:Logo_LCA2021_04" H 6300 4900 50  0001 C CNN
 F 3 "" H 6300 4900 50  0001 C CNN
 	1    6300 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5F810431
-P 6350 1600
-F 0 "#PWR?" H 6350 1450 50  0001 C CNN
-F 1 "+3V3" H 6365 1773 50  0000 C CNN
-F 2 "" H 6350 1600 50  0001 C CNN
-F 3 "" H 6350 1600 50  0001 C CNN
-	1    6350 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -784,18 +762,16 @@ Wire Wire Line
 	6450 1700 6350 1700
 Wire Wire Line
 	6350 1700 6350 1600
-Text Label 8400 2300 2    70   ~ 0
-GPIO2
 Text Label 8400 2200 2    70   ~ 0
-GPIO0
+GPIO2
 Text Label 8400 2100 2    70   ~ 0
-SCL
+GPIO0
 Text Label 8400 2000 2    70   ~ 0
+SCL
+Text Label 8400 1900 2    70   ~ 0
 SDA
-Text Label 8400 1900 2    70   Italic 0
-GPIO18
 Text Label 8400 1800 2    70   Italic 0
-GPIO23
+GPIO18
 Wire Wire Line
 	8000 1800 8400 1800
 Wire Wire Line
@@ -832,4 +808,39 @@ Wire Wire Line
 	6050 1900 6450 1900
 Wire Wire Line
 	6050 1800 6450 1800
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F7E99E6
+P 5800 6600
+F 0 "H4" H 5900 6646 50  0000 L CNN
+F 1 "MountingHole" H 5900 6555 50  0000 L CNN
+F 2 "SwagBadge:Lanyard_Hole_3mm" H 5800 6600 50  0001 C CNN
+F 3 "~" H 5800 6600 50  0001 C CNN
+	1    5800 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J12
+U 1 1 5F7FE834
+P 6650 2000
+F 0 "J12" H 6600 2550 50  0000 L CNN
+F 1 "Breakout_LHS" H 6400 2450 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 6650 2000 50  0001 C CNN
+F 3 "~" H 6650 2000 50  0001 C CNN
+	1    6650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F85A5CE
+P 6350 1600
+F 0 "#PWR?" H 6350 1450 50  0001 C CNN
+F 1 "+3V3" H 6365 1773 50  0000 C CNN
+F 2 "" H 6350 1600 50  0001 C CNN
+F 3 "" H 6350 1600 50  0001 C CNN
+	1    6350 1600
+	1    0    0    -1  
+$EndComp
+Text Label 8400 2300 2    70   ~ 0
+GPIO13
 $EndSCHEMATC

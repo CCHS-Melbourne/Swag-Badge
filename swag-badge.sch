@@ -692,17 +692,6 @@ F 3 "~" H 5800 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J13
-U 1 1 5F7E62CC
-P 7800 2000
-F 0 "J13" H 7750 2500 50  0000 L CNN
-F 1 "Breakout_RHS" H 7700 2400 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 7800 2000 50  0001 C CNN
-F 3 "~" H 7800 2000 50  0001 C CNN
-	1    7800 2000
-	-1   0    0    -1  
-$EndComp
-$Comp
 L SwagBadge:Logo_LCA2021 L1
 U 1 1 5F7ECC4B
 P 6300 5100
@@ -714,10 +703,10 @@ F 3 "" H 6300 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0115
 U 1 1 5F810C4A
 P 8150 1600
-F 0 "#PWR?" H 8150 1450 50  0001 C CNN
+F 0 "#PWR0115" H 8150 1450 50  0001 C CNN
 F 1 "+3V3" H 8165 1773 50  0000 C CNN
 F 2 "" H 8150 1600 50  0001 C CNN
 F 3 "" H 8150 1600 50  0001 C CNN
@@ -725,21 +714,21 @@ F 3 "" H 8150 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0116
 U 1 1 5F816772
-P 6350 2500
-F 0 "#PWR?" H 6350 2250 50  0001 C CNN
-F 1 "GND" H 6355 2327 50  0000 C CNN
-F 2 "" H 6350 2500 50  0001 C CNN
-F 3 "" H 6350 2500 50  0001 C CNN
-	1    6350 2500
+P 8850 2500
+F 0 "#PWR0116" H 8850 2250 50  0001 C CNN
+F 1 "GND" H 8855 2327 50  0000 C CNN
+F 2 "" H 8850 2500 50  0001 C CNN
+F 3 "" H 8850 2500 50  0001 C CNN
+	1    8850 2500
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0117
 U 1 1 5F816BF9
 P 8100 2500
-F 0 "#PWR?" H 8100 2250 50  0001 C CNN
+F 0 "#PWR0117" H 8100 2250 50  0001 C CNN
 F 1 "GND" H 8105 2327 50  0000 C CNN
 F 2 "" H 8100 2500 50  0001 C CNN
 F 3 "" H 8100 2500 50  0001 C CNN
@@ -747,9 +736,9 @@ F 3 "" H 8100 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 2400 6350 2400
+	8950 2400 8850 2400
 Wire Wire Line
-	6350 2400 6350 2500
+	8850 2400 8850 2500
 Wire Wire Line
 	8000 2400 8100 2400
 Wire Wire Line
@@ -759,9 +748,9 @@ Wire Wire Line
 Wire Wire Line
 	8150 1700 8150 1600
 Wire Wire Line
-	6450 1700 6350 1700
+	8950 1700 8850 1700
 Wire Wire Line
-	6350 1700 6350 1600
+	8850 1700 8850 1600
 Text Label 8400 2200 2    70   ~ 0
 GPIO2
 Text Label 8400 2100 2    70   ~ 0
@@ -784,30 +773,30 @@ Wire Wire Line
 	8000 2200 8400 2200
 Wire Wire Line
 	8000 2300 8400 2300
-Text Label 6050 1800 0    70   ~ 0
+Text Label 8550 1800 0    70   ~ 0
 GPIO34
-Text Label 6050 1900 0    70   ~ 0
+Text Label 8550 1900 0    70   ~ 0
 GPIO35
-Text Label 6050 2000 0    70   Italic 0
+Text Label 8550 2000 0    70   Italic 0
 GPIO32
-Text Label 6050 2100 0    70   Italic 0
+Text Label 8550 2100 0    70   Italic 0
 GPIO33
-Text Label 6050 2200 0    70   Italic 0
+Text Label 8550 2200 0    70   Italic 0
 GPIO25
-Text Label 6050 2300 0    70   Italic 0
+Text Label 8550 2300 0    70   Italic 0
 GPIO26
 Wire Wire Line
-	6450 2300 6050 2300
+	8950 2300 8550 2300
 Wire Wire Line
-	6050 2200 6450 2200
+	8550 2200 8950 2200
 Wire Wire Line
-	6050 2100 6450 2100
+	8550 2100 8950 2100
 Wire Wire Line
-	6050 2000 6450 2000
+	8550 2000 8950 2000
 Wire Wire Line
-	6050 1900 6450 1900
+	8550 1900 8950 1900
 Wire Wire Line
-	6050 1800 6450 1800
+	8550 1800 8950 1800
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5F7E99E6
@@ -820,27 +809,49 @@ F 3 "~" H 5800 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J12
-U 1 1 5F7FE834
-P 6650 2000
-F 0 "J12" H 6600 2550 50  0000 L CNN
-F 1 "Breakout_LHS" H 6400 2450 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 6650 2000 50  0001 C CNN
-F 3 "~" H 6650 2000 50  0001 C CNN
-	1    6650 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0118
 U 1 1 5F85A5CE
-P 6350 1600
-F 0 "#PWR?" H 6350 1450 50  0001 C CNN
-F 1 "+3V3" H 6365 1773 50  0000 C CNN
-F 2 "" H 6350 1600 50  0001 C CNN
-F 3 "" H 6350 1600 50  0001 C CNN
-	1    6350 1600
+P 8850 1600
+F 0 "#PWR0118" H 8850 1450 50  0001 C CNN
+F 1 "+3V3" H 8865 1773 50  0000 C CNN
+F 2 "" H 8850 1600 50  0001 C CNN
+F 3 "" H 8850 1600 50  0001 C CNN
+	1    8850 1600
 	1    0    0    -1  
 $EndComp
 Text Label 8400 2300 2    70   ~ 0
 GPIO13
+$Comp
+L Connector_Generic:Conn_01x08 J13
+U 1 1 5F7FE834
+P 9150 2100
+F 0 "J13" H 9050 1450 50  0000 L CNN
+F 1 "Breakout_RHS" H 8900 1550 50  0000 L CNN
+F 2 "SwagBadge:Pin_Header_Angled_1x08_Pitch2.54mm" H 9150 2100 50  0001 C CNN
+F 3 "~" H 9150 2100 50  0001 C CNN
+	1    9150 2100
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J12
+U 1 1 5F7E62CC
+P 7800 2100
+F 0 "J12" H 7750 1450 50  0000 L CNN
+F 1 "Breakout_LHS" H 7600 1550 50  0000 L CNN
+F 2 "SwagBadge:Pin_Header_Angled_1x08_Pitch2.54mm" H 7800 2100 50  0001 C CNN
+F 3 "~" H 7800 2100 50  0001 C CNN
+	1    7800 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F800940
+P 5800 6400
+F 0 "H3" H 5900 6446 50  0000 L CNN
+F 1 "MountingHole" H 5900 6355 50  0000 L CNN
+F 2 "SwagBadge:Lanyard_Hole_3mm" H 5800 6400 50  0001 C CNN
+F 3 "~" H 5800 6400 50  0001 C CNN
+	1    5800 6400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

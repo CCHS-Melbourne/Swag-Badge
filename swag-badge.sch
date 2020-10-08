@@ -381,9 +381,9 @@ F 3 "" H 3700 2900 50  0001 C CNN
 	1    3700 2900
 	1    0    0    -1  
 $EndComp
-Text Label 4750 2200 2    70   ~ 0
-GPIO22
 Text Label 3450 2200 0    70   ~ 0
+GPIO22
+Text Label 4750 2200 2    70   ~ 0
 GPIO19
 Text Label 3450 1150 0    70   ~ 0
 SDA
@@ -495,10 +495,6 @@ Wire Wire Line
 	2150 4350 2150 4400
 Wire Wire Line
 	1200 4350 1600 4350
-Text Label 1200 3700 0    70   ~ 0
-GPIO17
-Text Label 1200 4350 0    70   ~ 0
-GPIO16
 Text Label 1700 6750 2    70   ~ 0
 T7
 Text Label 1700 6850 2    70   ~ 0
@@ -771,17 +767,17 @@ Wire Wire Line
 	8000 2200 8400 2200
 Wire Wire Line
 	8000 2300 8400 2300
-Text Label 8550 1800 0    70   ~ 0
+Text Label 8550 2300 0    70   ~ 0
 GPIO34
-Text Label 8550 1900 0    70   ~ 0
+Text Label 8550 2200 0    70   ~ 0
 GPIO35
-Text Label 8550 2000 0    70   Italic 0
-GPIO32
 Text Label 8550 2100 0    70   Italic 0
+GPIO32
+Text Label 8550 2000 0    70   Italic 0
 GPIO33
-Text Label 8550 2200 0    70   Italic 0
+Text Label 8550 1900 0    70   Italic 0
 GPIO25
-Text Label 8550 2300 0    70   Italic 0
+Text Label 8550 1800 0    70   Italic 0
 GPIO26
 Wire Wire Line
 	8950 2300 8550 2300
@@ -852,4 +848,8 @@ F 3 "~" H 5800 6400 50  0001 C CNN
 	1    5800 6400
 	1    0    0    -1  
 $EndComp
+Text Label 1200 4350 0    70   ~ 0
+GPIO16
+Text Label 1200 3700 0    70   ~ 0
+GPIO17
 $EndSCHEMATC

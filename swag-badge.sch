@@ -499,11 +499,11 @@ Text Label 1200 3700 0    70   ~ 0
 GPIO17
 Text Label 1200 4350 0    70   ~ 0
 GPIO16
-Text Label 1700 5950 2    70   ~ 0
+Text Label 1700 6750 2    70   ~ 0
 T7
-Text Label 1700 6050 2    70   ~ 0
-T6
 Text Label 1700 6850 2    70   ~ 0
+T6
+Text Label 1700 6050 2    70   ~ 0
 T5
 Wire Wire Line
 	1450 5950 1700 5950
@@ -533,9 +533,7 @@ F 3 "~" H 1250 6850 50  0001 C CNN
 	1    1250 6850
 	-1   0    0    1   
 $EndComp
-Text Label 1700 6750 2    70   ~ 0
-T3
-Text Label 1700 6750 2    70   ~ 0
+Text Label 1700 5950 2    70   ~ 0
 T3
 Wire Wire Line
 	1450 6750 1700 6750

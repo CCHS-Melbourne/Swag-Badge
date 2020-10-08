@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name SwagBadge)(type KiCad)(uri C:/Users/Monkeys/OneDrive/Drafting/Swag-Badge/libs)(options "")(descr ""))
-  (lib (name libs)(type KiCad)(uri E:/Dropbox/GitHub/Swag-Badge/libs)(options "")(descr ""))
+  (lib (name SwagBadge)(type KiCad)(uri ${KIPRJMOD}/libs)(options "")(descr ""))
+  (lib (name libs)(type KiCad)(uri E:/Dropbox/GitHub/Swag-Badge/libs)(options "")(descr "")(disabled))
 )

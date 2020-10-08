@@ -692,26 +692,26 @@ F 3 "~" H 5800 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x13 J12
+L Connector_Generic:Conn_01x08 J12
 U 1 1 5F7DD7C2
-P 7000 2100
-F 0 "J12" H 7080 2142 50  0000 L CNN
-F 1 "Conn_01x13" H 7080 2051 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x13_Pitch2.54mm" H 7000 2100 50  0001 C CNN
-F 3 "~" H 7000 2100 50  0001 C CNN
-	1    7000 2100
+P 6650 2000
+F 0 "J12" H 6600 2500 50  0000 L CNN
+F 1 "Breakout_LHS" H 6550 2400 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 6650 2000 50  0001 C CNN
+F 3 "~" H 6650 2000 50  0001 C CNN
+	1    6650 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x13 J13
+L Connector_Generic:Conn_01x08 J13
 U 1 1 5F7E62CC
-P 7800 2100
-F 0 "J13" H 7880 2142 50  0000 L CNN
-F 1 "Conn_01x13" H 7880 2051 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x13_Pitch2.54mm" H 7800 2100 50  0001 C CNN
-F 3 "~" H 7800 2100 50  0001 C CNN
-	1    7800 2100
-	-1   0    0    1   
+P 7800 2000
+F 0 "J13" H 7750 2500 50  0000 L CNN
+F 1 "Breakout_RHS" H 7700 2400 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 7800 2000 50  0001 C CNN
+F 3 "~" H 7800 2000 50  0001 C CNN
+	1    7800 2000
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SwagBadge:Logo_LCA2021 L1
@@ -724,4 +724,112 @@ F 3 "" H 6300 4900 50  0001 C CNN
 	1    6300 5100
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F810431
+P 6350 1600
+F 0 "#PWR?" H 6350 1450 50  0001 C CNN
+F 1 "+3V3" H 6365 1773 50  0000 C CNN
+F 2 "" H 6350 1600 50  0001 C CNN
+F 3 "" H 6350 1600 50  0001 C CNN
+	1    6350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F810C4A
+P 8150 1600
+F 0 "#PWR?" H 8150 1450 50  0001 C CNN
+F 1 "+3V3" H 8165 1773 50  0000 C CNN
+F 2 "" H 8150 1600 50  0001 C CNN
+F 3 "" H 8150 1600 50  0001 C CNN
+	1    8150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F816772
+P 6350 2500
+F 0 "#PWR?" H 6350 2250 50  0001 C CNN
+F 1 "GND" H 6355 2327 50  0000 C CNN
+F 2 "" H 6350 2500 50  0001 C CNN
+F 3 "" H 6350 2500 50  0001 C CNN
+	1    6350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F816BF9
+P 8100 2500
+F 0 "#PWR?" H 8100 2250 50  0001 C CNN
+F 1 "GND" H 8105 2327 50  0000 C CNN
+F 2 "" H 8100 2500 50  0001 C CNN
+F 3 "" H 8100 2500 50  0001 C CNN
+	1    8100 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2400 6350 2400
+Wire Wire Line
+	6350 2400 6350 2500
+Wire Wire Line
+	8000 2400 8100 2400
+Wire Wire Line
+	8100 2400 8100 2500
+Wire Wire Line
+	8000 1700 8150 1700
+Wire Wire Line
+	8150 1700 8150 1600
+Wire Wire Line
+	6450 1700 6350 1700
+Wire Wire Line
+	6350 1700 6350 1600
+Text Label 8400 2300 2    70   ~ 0
+GPIO2
+Text Label 8400 2200 2    70   ~ 0
+GPIO0
+Text Label 8400 2100 2    70   ~ 0
+SCL
+Text Label 8400 2000 2    70   ~ 0
+SDA
+Text Label 8400 1900 2    70   Italic 0
+GPIO18
+Text Label 8400 1800 2    70   Italic 0
+GPIO23
+Wire Wire Line
+	8000 1800 8400 1800
+Wire Wire Line
+	8000 1900 8400 1900
+Wire Wire Line
+	8000 2000 8400 2000
+Wire Wire Line
+	8000 2100 8400 2100
+Wire Wire Line
+	8000 2200 8400 2200
+Wire Wire Line
+	8000 2300 8400 2300
+Text Label 6050 1800 0    70   ~ 0
+GPIO34
+Text Label 6050 1900 0    70   ~ 0
+GPIO35
+Text Label 6050 2000 0    70   Italic 0
+GPIO32
+Text Label 6050 2100 0    70   Italic 0
+GPIO33
+Text Label 6050 2200 0    70   Italic 0
+GPIO25
+Text Label 6050 2300 0    70   Italic 0
+GPIO26
+Wire Wire Line
+	6450 2300 6050 2300
+Wire Wire Line
+	6050 2200 6450 2200
+Wire Wire Line
+	6050 2100 6450 2100
+Wire Wire Line
+	6050 2000 6450 2000
+Wire Wire Line
+	6050 1900 6450 1900
+Wire Wire Line
+	6050 1800 6450 1800
 $EndSCHEMATC

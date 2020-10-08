@@ -681,37 +681,15 @@ F 3 "~" H 5800 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L Mechanical:MountingHole H5
 U 1 1 5F7DCF4D
-P 5800 6000
-F 0 "H3" H 5900 6046 50  0000 L CNN
-F 1 "MountingHole" H 5900 5955 50  0000 L CNN
-F 2 "SwagBadge:Lanyard_Hole" H 5800 6000 50  0001 C CNN
-F 3 "~" H 5800 6000 50  0001 C CNN
-	1    5800 6000
+P 5800 6100
+F 0 "H5" H 5900 6146 50  0000 L CNN
+F 1 "MountingHole" H 5900 6055 50  0000 L CNN
+F 2 "SwagBadge:Lanyard_Hole" H 5800 6100 50  0001 C CNN
+F 3 "~" H 5800 6100 50  0001 C CNN
+	1    5800 6100
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x13 J12
-U 1 1 5F7DD7C2
-P 7000 2100
-F 0 "J12" H 7080 2142 50  0000 L CNN
-F 1 "Conn_01x13" H 7080 2051 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x13_Pitch2.54mm" H 7000 2100 50  0001 C CNN
-F 3 "~" H 7000 2100 50  0001 C CNN
-	1    7000 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x13 J13
-U 1 1 5F7E62CC
-P 7800 2100
-F 0 "J13" H 7880 2142 50  0000 L CNN
-F 1 "Conn_01x13" H 7880 2051 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x13_Pitch2.54mm" H 7800 2100 50  0001 C CNN
-F 3 "~" H 7800 2100 50  0001 C CNN
-	1    7800 2100
-	-1   0    0    1   
 $EndComp
 $Comp
 L SwagBadge:Logo_LCA2021 L1
@@ -723,5 +701,49 @@ F 2 "SwagBadge:Logo_LCA2021_04" H 6300 4900 50  0001 C CNN
 F 3 "" H 6300 4900 50  0001 C CNN
 	1    6300 5100
 	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F7E99E0
+P 5800 6400
+F 0 "H3" H 5900 6446 50  0000 L CNN
+F 1 "MountingHole" H 5900 6355 50  0000 L CNN
+F 2 "SwagBadge:Lanyard_Hole_3mm" H 5800 6400 50  0001 C CNN
+F 3 "~" H 5800 6400 50  0001 C CNN
+	1    5800 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F7E99E6
+P 5800 6600
+F 0 "H4" H 5900 6646 50  0000 L CNN
+F 1 "MountingHole" H 5900 6555 50  0000 L CNN
+F 2 "SwagBadge:Lanyard_Hole_3mm" H 5800 6600 50  0001 C CNN
+F 3 "~" H 5800 6600 50  0001 C CNN
+	1    5800 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J12
+U 1 1 5F7FE834
+P 7000 3400
+F 0 "J12" H 6950 3950 50  0000 L CNN
+F 1 "Conn_01x08" H 6750 3850 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 7000 3400 50  0001 C CNN
+F 3 "~" H 7000 3400 50  0001 C CNN
+	1    7000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J13
+U 1 1 5F802AB5
+P 7650 3500
+F 0 "J13" H 7650 2850 50  0000 C CNN
+F 1 "Conn_01x08" H 7650 2950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 7650 3500 50  0001 C CNN
+F 3 "~" H 7650 3500 50  0001 C CNN
+	1    7650 3500
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

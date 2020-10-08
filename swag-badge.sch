@@ -389,7 +389,7 @@ Text Label 3450 1150 0    70   ~ 0
 SDA
 Text Label 4750 1150 2    70   ~ 0
 SCL
-Text Label 4750 1250 2    70   ~ 0
+Text Label 3450 1250 0    70   ~ 0
 GPIO32
 Text Label 4750 2100 2    70   ~ 0
 SCL
@@ -399,7 +399,7 @@ Text Label 4750 3100 2    70   ~ 0
 SCL
 Text Label 3450 3100 0    70   ~ 0
 SDA
-Text Label 3450 1250 0    70   ~ 0
+Text Label 4750 1250 2    70   ~ 0
 GPIO33
 Text Label 4750 4200 2    70   ~ 0
 GPIO23

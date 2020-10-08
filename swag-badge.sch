@@ -201,17 +201,17 @@ Text Label 1200 1800 0    70   ~ 0
 GPIO35
 Wire Wire Line
 	1600 2100 1200 2100
-Text Label 1200 2100 0    70   ~ 0
+Text Label 1200 2100 0    70   Italic 0
 GPIO25
 Wire Wire Line
 	1600 2200 1200 2200
-Text Label 1200 2200 0    70   ~ 0
+Text Label 1200 2200 0    70   Italic 0
 GPIO26
-Text Label 1200 2300 0    70   ~ 0
+Text Label 1200 2300 0    70   Italic 0
 GPIO27
-Text Label 1200 2400 0    70   ~ 0
+Text Label 1200 2400 0    70   Italic 0
 GPIO14
-Text Label 1200 2500 0    70   ~ 0
+Text Label 1200 2500 0    70   Italic 0
 GPIO12
 Wire Wire Line
 	2100 2600 2500 2600
@@ -240,7 +240,7 @@ Wire Wire Line
 	2100 1800 2500 1800
 Text Label 2500 1800 2    70   Italic 0
 GPIO18
-Text Label 2500 1900 2    70   ~ 0
+Text Label 2500 1900 2    70   Italic 0
 GPIO5
 Wire Wire Line
 	2100 2000 2500 2000
@@ -250,13 +250,13 @@ Wire Wire Line
 	2100 2100 2500 2100
 Text Label 2500 2100 2    70   Italic 0
 GPIO16
-Text Label 2500 2200 2    70   ~ 0
+Text Label 2500 2200 2    70   Italic 0
 GPIO4
 Text Label 2500 2300 2    70   ~ 0
 GPIO0
 Text Label 2500 2400 2    70   ~ 0
 GPIO2
-Text Label 2500 2500 2    70   ~ 0
+Text Label 2500 2500 2    70   Italic 0
 GPIO15
 $Comp
 L Connector_Generic:Conn_02x03_Counter_Clockwise J4
@@ -401,9 +401,9 @@ Text Label 3450 3100 0    70   ~ 0
 SDA
 Text Label 3450 2200 0    70   ~ 0
 GPIO33
-Text Label 4750 3200 2    70   ~ 0
+Text Label 4750 4200 2    70   ~ 0
 GPIO23
-Text Label 3450 3200 0    70   ~ 0
+Text Label 3450 4200 0    70   ~ 0
 GPIO18
 $Comp
 L Switch:SW_Push SW1
@@ -592,10 +592,10 @@ Text Label 4750 4100 2    70   ~ 0
 SCL
 Text Label 3450 4100 0    70   ~ 0
 SDA
-Text Label 4750 4200 2    70   ~ 0
-GPIOXX
-Text Label 3450 4200 0    70   ~ 0
-GPIOXX
+Text Label 4750 3200 2    70   ~ 0
+GPIO26
+Text Label 3450 3200 0    70   ~ 0
+GPIO25
 $Comp
 L Connector_Generic:Conn_01x01 J8
 U 1 1 5F7DFB47

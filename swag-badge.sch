@@ -593,9 +593,9 @@ SCL
 Text Label 3450 4100 0    70   ~ 0
 SDA
 Text Label 4750 3200 2    70   ~ 0
-GPIO26
-Text Label 3450 3200 0    70   ~ 0
 GPIO25
+Text Label 3450 3200 0    70   ~ 0
+GPIO26
 $Comp
 L Connector_Generic:Conn_01x01 J8
 U 1 1 5F7DFB47

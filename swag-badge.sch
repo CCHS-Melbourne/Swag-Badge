@@ -656,7 +656,7 @@ U 1 1 5F80DF84
 P 5800 5600
 F 0 "H1" H 5900 5646 50  0000 L CNN
 F 1 "MountingHole" H 5900 5555 50  0000 L CNN
-F 2 "SwagBadge:Lanyard_Hole_3mm" H 5800 5600 50  0001 C CNN
+F 2 "SwagBadge:Lanyard_Hole_4mm" H 5800 5600 50  0001 C CNN
 F 3 "~" H 5800 5600 50  0001 C CNN
 	1    5800 5600
 	1    0    0    -1  
@@ -667,7 +667,7 @@ U 1 1 5F80E9D7
 P 5800 5800
 F 0 "H2" H 5900 5846 50  0000 L CNN
 F 1 "MountingHole" H 5900 5755 50  0000 L CNN
-F 2 "SwagBadge:Lanyard_Hole_3mm" H 5800 5800 50  0001 C CNN
+F 2 "SwagBadge:Lanyard_Hole_4mm" H 5800 5800 50  0001 C CNN
 F 3 "~" H 5800 5800 50  0001 C CNN
 	1    5800 5800
 	1    0    0    -1  
@@ -686,12 +686,12 @@ $EndComp
 $Comp
 L SwagBadge:Logo_LCA2021 L1
 U 1 1 5F7ECC4B
-P 6300 5100
-F 0 "L1" H 6300 5403 50  0000 C CNN
-F 1 "Logo_LCA2021" H 6300 5312 50  0000 C CNN
-F 2 "SwagBadge:Logo_LCA2021_04A" H 6300 4900 50  0001 C CNN
-F 3 "" H 6300 4900 50  0001 C CNN
-	1    6300 5100
+P 7700 4050
+F 0 "L1" H 7700 4353 50  0000 C CNN
+F 1 "Logo_LCA2021" H 7700 4262 50  0000 C CNN
+F 2 "SwagBadge:Logo_LCA2021_04A" H 7700 3850 50  0001 C CNN
+F 3 "" H 7700 3850 50  0001 C CNN
+	1    7700 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -795,7 +795,7 @@ U 1 1 5F7E99E6
 P 5800 6600
 F 0 "H4" H 5900 6646 50  0000 L CNN
 F 1 "MountingHole" H 5900 6555 50  0000 L CNN
-F 2 "SwagBadge:Lanyard_Hole_3mm" H 5800 6600 50  0001 C CNN
+F 2 "SwagBadge:Lanyard_Hole_4mm" H 5800 6600 50  0001 C CNN
 F 3 "~" H 5800 6600 50  0001 C CNN
 	1    5800 6600
 	1    0    0    -1  
@@ -841,7 +841,7 @@ U 1 1 5F800940
 P 5800 6400
 F 0 "H3" H 5900 6446 50  0000 L CNN
 F 1 "MountingHole" H 5900 6355 50  0000 L CNN
-F 2 "SwagBadge:Lanyard_Hole_3mm" H 5800 6400 50  0001 C CNN
+F 2 "SwagBadge:Lanyard_Hole_4mm" H 5800 6400 50  0001 C CNN
 F 3 "~" H 5800 6400 50  0001 C CNN
 	1    5800 6400
 	1    0    0    -1  
@@ -890,4 +890,26 @@ Wire Wire Line
 Connection ~ 2150 5100
 Wire Wire Line
 	2150 5100 2150 5150
+$Comp
+L SwagBadge:OSHW_Logo L3
+U 1 1 5F80B1A7
+P 7450 5000
+F 0 "L3" H 7888 5039 50  0000 L CNN
+F 1 "OSHW_Logo" H 7888 4948 50  0000 L CNN
+F 2 "SwagBadge:OSHW_Logo_10mm" H 7450 4850 50  0001 C CNN
+F 3 "" H 7450 4850 50  0001 C CNN
+	1    7450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwagBadge:LinuxAU_Logo L2
+U 1 1 5F80BA39
+P 7750 4550
+F 0 "L2" H 7750 4853 50  0000 C CNN
+F 1 "LinuxAU_Logo" H 7750 4762 50  0000 C CNN
+F 2 "SwagBadge:LinuxAU_Logo_01" H 7750 4400 50  0001 C CNN
+F 3 "" H 7750 4400 50  0001 C CNN
+	1    7750 4550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

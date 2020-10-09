@@ -1,6 +1,18 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# LinuxAU_Logo
+#
+DEF LinuxAU_Logo U 0 40 Y Y 1 F N
+F0 "U" 0 -200 50 H V C CNN
+F1 "LinuxAU_Logo" 0 -300 50 H V C CNN
+F2 "" 0 -150 50 H I C CNN
+F3 "" 0 -150 50 H I C CNN
+DRAW
+T 0 0 0 197 0 0 0 "LINUX AU" Normal 0 C C
+ENDDRAW
+ENDDEF
+#
 # Logo_LCA2021
 #
 DEF Logo_LCA2021 L 0 40 Y Y 1 F N
@@ -10,6 +22,18 @@ F2 "" 0 -200 50 H I C CNN
 F3 "" 0 -200 50 H I C CNN
 DRAW
 T 0 0 0 197 0 0 0 LCA2021 Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# OSHW_Logo
+#
+DEF OSHW_Logo U 0 40 Y Y 1 F N
+F0 "U" 0 -150 50 H V C CNN
+F1 "OSHW_Logo" 0 -250 50 H V C CNN
+F2 "" 0 -150 50 H I C CNN
+F3 "" 0 -150 50 H I C CNN
+DRAW
+T 0 0 0 197 0 0 0 OSHW Normal 0 C C
 ENDDRAW
 ENDDEF
 #

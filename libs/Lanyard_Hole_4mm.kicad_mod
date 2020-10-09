@@ -1,0 +1,11 @@
+(module Lanyard_Hole_4mm (layer F.Cu) (tedit 5F7F885E)
+  (descr "Lanyard Circular Hole")
+  (fp_text reference REF** (at 0 2.8575) (layer F.SilkS) hide
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (fp_text value Hole (at 0 -2.8575) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask)
+    (clearance 1.5))
+)

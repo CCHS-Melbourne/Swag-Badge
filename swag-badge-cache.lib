@@ -236,6 +236,18 @@ T 0 0 0 197 0 0 0 OSHW Normal 0 C C
 ENDDRAW
 ENDDEF
 #
+# SwagBadge_SwagBadge_Logo
+#
+DEF SwagBadge_SwagBadge_Logo L 0 40 Y Y 1 F N
+F0 "L" 0 -150 50 H V C CNN
+F1 "SwagBadge_SwagBadge_Logo" 0 -150 50 H V C CNN
+F2 "" 0 -150 50 H I C CNN
+F3 "" 0 -150 50 H I C CNN
+DRAW
+T 0 0 0 197 0 0 0 SwagBadge Normal 0 C C
+ENDDRAW
+ENDDEF
+#
 # Switch_SW_Push
 #
 DEF Switch_SW_Push SW 0 40 N N 1 F N
